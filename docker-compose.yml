@@ -27,7 +27,7 @@ services:
     grafana:
         image: grafana/grafana:8.1.3
         ports:
-            - "80:3000"
+            - "8000:3000"
         volumes:
             - "grafana_config:/var/lib/grafana"
 
@@ -37,12 +37,20 @@ services:
             - graphite
         command: -storage_driver="statsd" -storage_driver_host="graphite:8125" -storage_driver_db="cadvisor" -storage_driver_buffer_duration="1s"
         ports:
-            - "8080:8080"
+            - "9999:8080"
         volumes:
             - "/:/rootfs:ro"
             - "/var/run:/var/run:rw"
             - "/sys:/sys:ro"
             - "/var/lib/docker/:/var/lib/docker:ro"
+
+    bbox:
+        image: arqsoft/bbox:202102.1
+        ports:
+            - "9090:9090"
+            - "9091:9091"
+        volumes:
+            -   ./bbox.config.properties:/opt/bbox/config.properties
 
 volumes:
     grafana_config:
