@@ -12,16 +12,18 @@ config:
 
   phases:
     - name: Ramp
-      duration: 30
-      arrivalRate: 5
+      duration: 30 # la duracion esta en segundos
+      arrivalRate: 5 # req por seg
       rampTo: 30
     - name: Plain
       duration: 120
       arrivalRate: 30
-    
+    # al final Grafana te replica el ultimo valor, siempre mandar un escenario que le des arrivalRate 0
+    # para saber donde corto
+    # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta.
 
 scenarios:
   - name: Root (/)
     flow:
       - get:
-          url: '/'
+          url: '/' #endponit al que le vas a pegar

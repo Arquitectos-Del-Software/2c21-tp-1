@@ -1,0 +1,53 @@
+config:
+  environments:
+    node:
+      target: 'http://localhost:5555'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-node"
+
+  pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
+
+  phases:
+    - name: Plain
+      duration: 30 # la duracion esta en segundos
+      arrivalRate: 5 # req por seg
+    - name: Plain2
+      duration: 30
+      arrivalRate: 10
+    - name: Plain3
+      duration: 30
+      arrivalRate: 20
+    - name: Plain4
+      duration: 30
+      arrivalRate: 40
+    - name: Plain5
+      duration: 30
+      arrivalRate: 80
+    - name: Plain6
+      duration: 30
+      arrivalRate: 160
+    - name: Plain7
+      duration: 30
+      arrivalRate: 320
+    - name: Plain8
+      duration: 30
+      arrivalRate: 640
+    - name: Plain9
+      duration: 60
+      arrivalRate: 1280
+    - name: end
+      duration: 30
+      arrivalRate: 0
+
+    # al final Grafana te replica el ultimo valor, siempre mandar un escenario que le des arrivalRate 0
+    # para saber donde corto
+    # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta.
+
+scenarios:
+  - name: Root (/)
+    flow:
+      - get:
+          url: '/ping' #endponit al que le vas a pegar
