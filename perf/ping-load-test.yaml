@@ -8,6 +8,14 @@ config:
           port: 8125
           prefix: "artillery-node"
 
+    black_box:
+      target: 'http://localhost:9090'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-black-box"
+
   pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
 
   phases:
