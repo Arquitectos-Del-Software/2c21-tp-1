@@ -1,0 +1,46 @@
+config:
+  environments:
+    node:
+      target: 'http://localhost:5555'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-node"
+
+  pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
+
+  phases:
+    - name: Ramp1
+      duration: 10 # la duracion esta en segundos
+      arrivalRate: 6 # req por seg
+      rampto: 10
+    - name: Ramp2
+      duration: 10 # la duracion esta en segundos
+      arrivalRate: 12 # req por seg
+      rampto: 20
+    - name: Ramp3
+      duration: 10 # la duracion esta en segundos
+      arrivalRate: 18 # req por seg
+      rampto: 30
+    - name: Ramp4
+      duration: 10 # la duracion esta en segundos
+      arrivalRate: 24 # req por seg
+      rampto: 40
+    - name: Ramp5
+      duration: 10 # la duracion esta en segundos
+      arrivalRate: 30 # req por seg
+      rampto: 50
+    - name: end
+      duration: 30
+      arrivalRate: 0
+
+    # al final Grafana te replica el ultimo valor, siempre mandar un escenario que le des arrivalRate 0
+    # para saber donde corto
+    # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta.
+
+scenarios:
+  - name: Heavy (/heavy)
+    flow:
+      - get:
+          url: '/heavy' #endponit al que le vas a pegar

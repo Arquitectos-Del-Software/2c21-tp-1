@@ -1,12 +1,19 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
+const TIMEOUT = 5000;
 
 app.get('/ping', function (req, res) {
-    res.send('pong\n')
-})
+    res.send('pong\n');
+});
 
 app.get('/', function (req, res) {
-    res.send('Hello World')
-})
+    res.send('Hello, world!');
+});
 
-app.listen(3000)
+app.get('/heavy', function (req, res){
+    let now = new Date();
+    while(new Date()-now<= TIMEOUT);
+    res.send('Hello, world!');
+});
+
+app.listen(3000);

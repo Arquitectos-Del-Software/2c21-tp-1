@@ -3,6 +3,8 @@ version: '2'
 services:
     node:
         build: ./app
+        volumes:
+            - ./app/app.js:/opt/app/app.js
 
     nginx:
         image: nginx:1.21.3
