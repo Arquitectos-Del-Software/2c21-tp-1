@@ -10,7 +10,16 @@ app.get('/ping', function (_, res) {
     res.send('pong\n')
 })
 
-app.get('/heavy', function (_, res){
+app.get('/sync', function (_, res) {
+})
+
+app.get('/async', function (_, res) {
+    setTimeout(() => {
+        res.send('Asincronico OK')
+    }, TIMEOUT);
+})
+
+app.get('/heavy', function (_, res) {
     let now = new Date()
 
     while (new Date() - now <= TIMEOUT) {
