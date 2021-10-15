@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const TIMEOUT = 5000
+const TIMEOUT = 100
 
 app.get('/', function (_, res) {
     res.send('Hello, world!')
