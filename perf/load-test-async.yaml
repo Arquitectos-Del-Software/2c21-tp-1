@@ -1,0 +1,32 @@
+config:
+  environments:
+    node:
+      target: 'http://localhost:5555'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-node"
+
+  pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
+
+  # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta
+  # al final Grafana te replica el ultimo valor, siempre mandar un escenario con arrivalRate 0
+  # para visualizar el corte
+  # duration: duracion en segundos
+  # arrivalRate: request por segundoc
+
+  phases:
+    - name: 10 request / segundo
+      duration: 60
+      arrivalRate: 10
+
+    - name: end
+      duration: 10
+      arrivalRate: 0
+
+scenarios:
+  - name: Asincronico (/async)
+    flow:
+      - get:
+          url: '/async' # endpoint al que le vas a pegar
