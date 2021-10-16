@@ -1,0 +1,860 @@
+
+> perf@1.0.0 artillery /home/hugo/Desktop/Arq de Soft/Tp1/2c21-tp-1/perf
+> artillery "run" "load-bbox.yaml" "-e" "black_box_1"
+
+Started phase 0 (Load), duration: 600s @ 17:16:20(-0300) 2021-10-16
+Report @ 17:16:30(-0300) 2021-10-16
+Elapsed time: 10 seconds
+  Scenarios launched:  49
+  Scenarios completed: 45
+  Requests completed:  45
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 933
+    median: 902
+    p95: 909.8
+    p99: 933
+  Codes:
+    200: 45
+
+Report @ 17:16:40(-0300) 2021-10-16
+Elapsed time: 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:16:50(-0300) 2021-10-16
+Elapsed time: 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:00(-0300) 2021-10-16
+Elapsed time: 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:10(-0300) 2021-10-16
+Elapsed time: 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:20(-0300) 2021-10-16
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:30(-0300) 2021-10-16
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:40(-0300) 2021-10-16
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:17:50(-0300) 2021-10-16
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:18:00(-0300) 2021-10-16
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 903
+    median: 902
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:18:10(-0300) 2021-10-16
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 903
+    median: 902
+    p95: 903
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:18:20(-0300) 2021-10-16
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 905
+    median: 902
+    p95: 903
+    p99: 905
+  Codes:
+    200: 50
+
+Report @ 17:18:30(-0300) 2021-10-16
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 903
+    median: 902
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:18:40(-0300) 2021-10-16
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 903
+    median: 902
+    p95: 903
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:18:50(-0300) 2021-10-16
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 903
+    median: 901
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:19:00(-0300) 2021-10-16
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:19:10(-0300) 2021-10-16
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:19:20(-0300) 2021-10-16
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 903
+    median: 901
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:19:30(-0300) 2021-10-16
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 902
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:19:40(-0300) 2021-10-16
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:19:50(-0300) 2021-10-16
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:00(-0300) 2021-10-16
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:10(-0300) 2021-10-16
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:20(-0300) 2021-10-16
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:30(-0300) 2021-10-16
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:40(-0300) 2021-10-16
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:20:50(-0300) 2021-10-16
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:00(-0300) 2021-10-16
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:10(-0300) 2021-10-16
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:20(-0300) 2021-10-16
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:30(-0300) 2021-10-16
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:40(-0300) 2021-10-16
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:21:50(-0300) 2021-10-16
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:22:00(-0300) 2021-10-16
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:22:10(-0300) 2021-10-16
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:22:20(-0300) 2021-10-16
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 901
+    median: 901
+    p95: 901
+    p99: 901
+  Codes:
+    200: 50
+
+Report @ 17:22:30(-0300) 2021-10-16
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:22:40(-0300) 2021-10-16
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 902
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:22:50(-0300) 2021-10-16
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 902
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:23:00(-0300) 2021-10-16
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:23:10(-0300) 2021-10-16
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:23:20(-0300) 2021-10-16
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:23:30(-0300) 2021-10-16
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 903
+    median: 901
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:23:40(-0300) 2021-10-16
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:23:50(-0300) 2021-10-16
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:24:00(-0300) 2021-10-16
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:24:10(-0300) 2021-10-16
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:24:20(-0300) 2021-10-16
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:24:30(-0300) 2021-10-16
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 903
+    median: 901
+    p95: 902
+    p99: 903
+  Codes:
+    200: 50
+
+Report @ 17:24:40(-0300) 2021-10-16
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:24:50(-0300) 2021-10-16
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:00(-0300) 2021-10-16
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:10(-0300) 2021-10-16
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:20(-0300) 2021-10-16
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:30(-0300) 2021-10-16
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.01
+  Response time (msec):
+    min: 901
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:40(-0300) 2021-10-16
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 901
+    p99: 902
+  Codes:
+    200: 50
+
+Report @ 17:25:50(-0300) 2021-10-16
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5
+  Response time (msec):
+    min: 900
+    max: 902
+    median: 901
+    p95: 902
+    p99: 902
+  Codes:
+    200: 50
+

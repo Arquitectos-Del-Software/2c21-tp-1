@@ -1,0 +1,634 @@
+config:
+  environments:
+    black_box_1:
+      target: 'http://localhost:9090'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-black-box"
+
+    black_box_2:
+      target: 'http://localhost:9091'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-black-box"
+
+  pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
+
+  # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta
+  # al final Grafana te replica el ultimo valor, siempre mandar un escenario con arrivalRate 0
+  # para visualizar el corte
+  # duration: duracion en segundos
+  # arrivalRate: request por segundo
+
+  phases:
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+    - name: Peak
+      duration: 1
+      arrivalRate: 1
+    - name: Plain
+      duration: 10
+      arrivalRate: 0
+
+
+scenarios:
+  - name: Root (/)
+    flow:
+      - get:
+          url: '/' #endponit al que le vas a pegar

@@ -1,0 +1,1864 @@
+
+> perf@1.0.0 artillery /home/hugo/Desktop/Arq de Soft/Tp1/2c21-tp-1/perf
+> artillery "run" "response-time-bbox.yaml" "-e" "black_box_2"
+
+Started phase 0 (Peak), duration: 1s @ 18:40:51(-0300) 2021-10-15
+Started phase 1 (Plain), duration: 10s @ 18:40:52(-0300) 2021-10-15
+Report @ 18:41:01(-0300) 2021-10-15
+Elapsed time: 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 2 (Peak), duration: 1s @ 18:41:02(-0300) 2021-10-15
+Started phase 3 (Plain), duration: 10s @ 18:41:03(-0300) 2021-10-15
+Report @ 18:41:11(-0300) 2021-10-15
+Elapsed time: 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 4 (Peak), duration: 1s @ 18:41:13(-0300) 2021-10-15
+Started phase 5 (Plain), duration: 10s @ 18:41:14(-0300) 2021-10-15
+Report @ 18:41:21(-0300) 2021-10-15
+Elapsed time: 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.14
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 6 (Peak), duration: 1s @ 18:41:24(-0300) 2021-10-15
+Started phase 7 (Plain), duration: 10s @ 18:41:25(-0300) 2021-10-15
+Report @ 18:41:31(-0300) 2021-10-15
+Elapsed time: 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 8 (Peak), duration: 1s @ 18:41:35(-0300) 2021-10-15
+Started phase 9 (Plain), duration: 10s @ 18:41:36(-0300) 2021-10-15
+Report @ 18:41:41(-0300) 2021-10-15
+Elapsed time: 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.2
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 10 (Peak), duration: 1s @ 18:41:46(-0300) 2021-10-15
+Started phase 11 (Plain), duration: 10s @ 18:41:47(-0300) 2021-10-15
+Report @ 18:41:51(-0300) 2021-10-15
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.25
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 12 (Peak), duration: 1s @ 18:41:57(-0300) 2021-10-15
+Started phase 13 (Plain), duration: 10s @ 18:41:58(-0300) 2021-10-15
+Report @ 18:42:01(-0300) 2021-10-15
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.34
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 14 (Peak), duration: 1s @ 18:42:08(-0300) 2021-10-15
+Started phase 15 (Plain), duration: 10s @ 18:42:09(-0300) 2021-10-15
+Report @ 18:42:11(-0300) 2021-10-15
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.51
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 16 (Peak), duration: 1s @ 18:42:19(-0300) 2021-10-15
+Started phase 17 (Plain), duration: 10s @ 18:42:20(-0300) 2021-10-15
+Report @ 18:42:21(-0300) 2021-10-15
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 18 (Peak), duration: 1s @ 18:42:30(-0300) 2021-10-15
+Report @ 18:42:31(-0300) 2021-10-15
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 19 (Plain), duration: 10s @ 18:42:31(-0300) 2021-10-15
+Report @ 18:42:41(-0300) 2021-10-15
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 20 (Peak), duration: 1s @ 18:42:41(-0300) 2021-10-15
+Started phase 21 (Plain), duration: 10s @ 18:42:42(-0300) 2021-10-15
+Report @ 18:42:51(-0300) 2021-10-15
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 22 (Peak), duration: 1s @ 18:42:52(-0300) 2021-10-15
+Started phase 23 (Plain), duration: 10s @ 18:42:53(-0300) 2021-10-15
+Report @ 18:43:01(-0300) 2021-10-15
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 24 (Peak), duration: 1s @ 18:43:03(-0300) 2021-10-15
+Started phase 25 (Plain), duration: 10s @ 18:43:04(-0300) 2021-10-15
+Report @ 18:43:11(-0300) 2021-10-15
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.14
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 26 (Peak), duration: 1s @ 18:43:14(-0300) 2021-10-15
+Started phase 27 (Plain), duration: 10s @ 18:43:15(-0300) 2021-10-15
+Report @ 18:43:21(-0300) 2021-10-15
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 28 (Peak), duration: 1s @ 18:43:25(-0300) 2021-10-15
+Started phase 29 (Plain), duration: 10s @ 18:43:26(-0300) 2021-10-15
+Report @ 18:43:31(-0300) 2021-10-15
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.2
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 30 (Peak), duration: 1s @ 18:43:36(-0300) 2021-10-15
+Started phase 31 (Plain), duration: 10s @ 18:43:37(-0300) 2021-10-15
+Report @ 18:43:41(-0300) 2021-10-15
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.25
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 32 (Peak), duration: 1s @ 18:43:47(-0300) 2021-10-15
+Started phase 33 (Plain), duration: 10s @ 18:43:48(-0300) 2021-10-15
+Report @ 18:43:51(-0300) 2021-10-15
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.34
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 34 (Peak), duration: 1s @ 18:43:58(-0300) 2021-10-15
+Started phase 35 (Plain), duration: 10s @ 18:43:59(-0300) 2021-10-15
+Report @ 18:44:01(-0300) 2021-10-15
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.52
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 36 (Peak), duration: 1s @ 18:44:09(-0300) 2021-10-15
+Started phase 37 (Plain), duration: 10s @ 18:44:10(-0300) 2021-10-15
+Report @ 18:44:11(-0300) 2021-10-15
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.08
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 38 (Peak), duration: 1s @ 18:44:20(-0300) 2021-10-15
+Report @ 18:44:21(-0300) 2021-10-15
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 39 (Plain), duration: 10s @ 18:44:21(-0300) 2021-10-15
+Report @ 18:44:31(-0300) 2021-10-15
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 40 (Peak), duration: 1s @ 18:44:31(-0300) 2021-10-15
+Started phase 41 (Plain), duration: 10s @ 18:44:32(-0300) 2021-10-15
+Report @ 18:44:41(-0300) 2021-10-15
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 42 (Peak), duration: 1s @ 18:44:42(-0300) 2021-10-15
+Started phase 43 (Plain), duration: 10s @ 18:44:43(-0300) 2021-10-15
+Report @ 18:44:51(-0300) 2021-10-15
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 44 (Peak), duration: 1s @ 18:44:53(-0300) 2021-10-15
+Started phase 45 (Plain), duration: 10s @ 18:44:54(-0300) 2021-10-15
+Report @ 18:45:01(-0300) 2021-10-15
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.14
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 46 (Peak), duration: 1s @ 18:45:04(-0300) 2021-10-15
+Started phase 47 (Plain), duration: 10s @ 18:45:05(-0300) 2021-10-15
+Report @ 18:45:11(-0300) 2021-10-15
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1157
+    max: 1157
+    median: 1157
+    p95: 1157
+    p99: 1157
+  Codes:
+    200: 1
+
+Started phase 48 (Peak), duration: 1s @ 18:45:15(-0300) 2021-10-15
+Started phase 49 (Plain), duration: 10s @ 18:45:16(-0300) 2021-10-15
+Report @ 18:45:21(-0300) 2021-10-15
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.2
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 50 (Peak), duration: 1s @ 18:45:26(-0300) 2021-10-15
+Started phase 51 (Plain), duration: 10s @ 18:45:27(-0300) 2021-10-15
+Report @ 18:45:31(-0300) 2021-10-15
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 52 (Peak), duration: 1s @ 18:45:37(-0300) 2021-10-15
+Started phase 53 (Plain), duration: 10s @ 18:45:38(-0300) 2021-10-15
+Report @ 18:45:41(-0300) 2021-10-15
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.34
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 54 (Peak), duration: 1s @ 18:45:48(-0300) 2021-10-15
+Started phase 55 (Plain), duration: 10s @ 18:45:49(-0300) 2021-10-15
+Report @ 18:45:51(-0300) 2021-10-15
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.52
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 56 (Peak), duration: 1s @ 18:45:59(-0300) 2021-10-15
+Started phase 57 (Plain), duration: 10s @ 18:46:00(-0300) 2021-10-15
+Report @ 18:46:01(-0300) 2021-10-15
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.1
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 58 (Peak), duration: 1s @ 18:46:10(-0300) 2021-10-15
+Report @ 18:46:11(-0300) 2021-10-15
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 59 (Plain), duration: 10s @ 18:46:11(-0300) 2021-10-15
+Report @ 18:46:21(-0300) 2021-10-15
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 60 (Peak), duration: 1s @ 18:46:21(-0300) 2021-10-15
+Started phase 61 (Plain), duration: 10s @ 18:46:22(-0300) 2021-10-15
+Report @ 18:46:31(-0300) 2021-10-15
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 62 (Peak), duration: 1s @ 18:46:32(-0300) 2021-10-15
+Started phase 63 (Plain), duration: 10s @ 18:46:33(-0300) 2021-10-15
+Report @ 18:46:41(-0300) 2021-10-15
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 64 (Peak), duration: 1s @ 18:46:43(-0300) 2021-10-15
+Started phase 65 (Plain), duration: 10s @ 18:46:44(-0300) 2021-10-15
+Report @ 18:46:51(-0300) 2021-10-15
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.14
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 66 (Peak), duration: 1s @ 18:46:54(-0300) 2021-10-15
+Started phase 67 (Plain), duration: 10s @ 18:46:55(-0300) 2021-10-15
+Report @ 18:47:01(-0300) 2021-10-15
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 68 (Peak), duration: 1s @ 18:47:05(-0300) 2021-10-15
+Started phase 69 (Plain), duration: 10s @ 18:47:06(-0300) 2021-10-15
+Report @ 18:47:11(-0300) 2021-10-15
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.2
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 70 (Peak), duration: 1s @ 18:47:16(-0300) 2021-10-15
+Started phase 71 (Plain), duration: 10s @ 18:47:17(-0300) 2021-10-15
+Report @ 18:47:21(-0300) 2021-10-15
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 72 (Peak), duration: 1s @ 18:47:27(-0300) 2021-10-15
+Started phase 73 (Plain), duration: 10s @ 18:47:28(-0300) 2021-10-15
+Report @ 18:47:31(-0300) 2021-10-15
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.35
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 74 (Peak), duration: 1s @ 18:47:38(-0300) 2021-10-15
+Started phase 75 (Plain), duration: 10s @ 18:47:39(-0300) 2021-10-15
+Report @ 18:47:41(-0300) 2021-10-15
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.53
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 76 (Peak), duration: 1s @ 18:47:49(-0300) 2021-10-15
+Started phase 77 (Plain), duration: 10s @ 18:47:50(-0300) 2021-10-15
+Report @ 18:47:51(-0300) 2021-10-15
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.14
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 78 (Peak), duration: 1s @ 18:48:00(-0300) 2021-10-15
+Report @ 18:48:01(-0300) 2021-10-15
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 79 (Plain), duration: 10s @ 18:48:01(-0300) 2021-10-15
+Report @ 18:48:11(-0300) 2021-10-15
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 80 (Peak), duration: 1s @ 18:48:11(-0300) 2021-10-15
+Started phase 81 (Plain), duration: 10s @ 18:48:12(-0300) 2021-10-15
+Report @ 18:48:21(-0300) 2021-10-15
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 82 (Peak), duration: 1s @ 18:48:22(-0300) 2021-10-15
+Started phase 83 (Plain), duration: 10s @ 18:48:23(-0300) 2021-10-15
+Report @ 18:48:31(-0300) 2021-10-15
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 84 (Peak), duration: 1s @ 18:48:33(-0300) 2021-10-15
+Started phase 85 (Plain), duration: 10s @ 18:48:34(-0300) 2021-10-15
+Report @ 18:48:41(-0300) 2021-10-15
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 86 (Peak), duration: 1s @ 18:48:44(-0300) 2021-10-15
+Started phase 87 (Plain), duration: 10s @ 18:48:45(-0300) 2021-10-15
+Report @ 18:48:51(-0300) 2021-10-15
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 88 (Peak), duration: 1s @ 18:48:55(-0300) 2021-10-15
+Started phase 89 (Plain), duration: 10s @ 18:48:56(-0300) 2021-10-15
+Report @ 18:49:01(-0300) 2021-10-15
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 90 (Peak), duration: 1s @ 18:49:06(-0300) 2021-10-15
+Started phase 91 (Plain), duration: 10s @ 18:49:07(-0300) 2021-10-15
+Report @ 18:49:11(-0300) 2021-10-15
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 92 (Peak), duration: 1s @ 18:49:17(-0300) 2021-10-15
+Started phase 93 (Plain), duration: 10s @ 18:49:18(-0300) 2021-10-15
+Report @ 18:49:21(-0300) 2021-10-15
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.35
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 94 (Peak), duration: 1s @ 18:49:28(-0300) 2021-10-15
+Started phase 95 (Plain), duration: 10s @ 18:49:29(-0300) 2021-10-15
+Report @ 18:49:31(-0300) 2021-10-15
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.54
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 96 (Peak), duration: 1s @ 18:49:39(-0300) 2021-10-15
+Started phase 97 (Plain), duration: 10s @ 18:49:40(-0300) 2021-10-15
+Report @ 18:49:41(-0300) 2021-10-15
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.16
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 98 (Peak), duration: 1s @ 18:49:50(-0300) 2021-10-15
+Report @ 18:49:51(-0300) 2021-10-15
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 99 (Plain), duration: 10s @ 18:49:51(-0300) 2021-10-15
+Report @ 18:50:01(-0300) 2021-10-15
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 100 (Peak), duration: 1s @ 18:50:01(-0300) 2021-10-15
+Started phase 101 (Plain), duration: 10s @ 18:50:02(-0300) 2021-10-15
+Report @ 18:50:11(-0300) 2021-10-15
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 102 (Peak), duration: 1s @ 18:50:12(-0300) 2021-10-15
+Started phase 103 (Plain), duration: 10s @ 18:50:13(-0300) 2021-10-15
+Report @ 18:50:21(-0300) 2021-10-15
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 104 (Peak), duration: 1s @ 18:50:23(-0300) 2021-10-15
+Started phase 105 (Plain), duration: 10s @ 18:50:24(-0300) 2021-10-15
+Report @ 18:50:31(-0300) 2021-10-15
+Elapsed time: 9 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 106 (Peak), duration: 1s @ 18:50:34(-0300) 2021-10-15
+Started phase 107 (Plain), duration: 10s @ 18:50:35(-0300) 2021-10-15
+Report @ 18:50:41(-0300) 2021-10-15
+Elapsed time: 9 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 108 (Peak), duration: 1s @ 18:50:45(-0300) 2021-10-15
+Started phase 109 (Plain), duration: 10s @ 18:50:46(-0300) 2021-10-15
+Report @ 18:50:51(-0300) 2021-10-15
+Elapsed time: 10 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 110 (Peak), duration: 1s @ 18:50:56(-0300) 2021-10-15
+Started phase 111 (Plain), duration: 10s @ 18:50:57(-0300) 2021-10-15
+Report @ 18:51:01(-0300) 2021-10-15
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 112 (Peak), duration: 1s @ 18:51:07(-0300) 2021-10-15
+Started phase 113 (Plain), duration: 10s @ 18:51:08(-0300) 2021-10-15
+Report @ 18:51:11(-0300) 2021-10-15
+Elapsed time: 10 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.35
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 114 (Peak), duration: 1s @ 18:51:18(-0300) 2021-10-15
+Started phase 115 (Plain), duration: 10s @ 18:51:19(-0300) 2021-10-15
+Report @ 18:51:21(-0300) 2021-10-15
+Elapsed time: 10 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.55
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 116 (Peak), duration: 1s @ 18:51:29(-0300) 2021-10-15
+Started phase 117 (Plain), duration: 10s @ 18:51:30(-0300) 2021-10-15
+Report @ 18:51:31(-0300) 2021-10-15
+Elapsed time: 10 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.2
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 118 (Peak), duration: 1s @ 18:51:40(-0300) 2021-10-15
+Report @ 18:51:41(-0300) 2021-10-15
+Elapsed time: 10 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1156
+    max: 1156
+    median: 1156
+    p95: 1156
+    p99: 1156
+  Codes:
+    200: 1
+
+Started phase 119 (Plain), duration: 10s @ 18:51:41(-0300) 2021-10-15
+Report @ 18:51:51(-0300) 2021-10-15
+Elapsed time: 11 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 120 (Peak), duration: 1s @ 18:51:51(-0300) 2021-10-15
+Started phase 121 (Plain), duration: 10s @ 18:51:52(-0300) 2021-10-15
+Report @ 18:52:01(-0300) 2021-10-15
+Elapsed time: 11 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 122 (Peak), duration: 1s @ 18:52:02(-0300) 2021-10-15
+Started phase 123 (Plain), duration: 10s @ 18:52:03(-0300) 2021-10-15
+Report @ 18:52:11(-0300) 2021-10-15
+Elapsed time: 11 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 124 (Peak), duration: 1s @ 18:52:13(-0300) 2021-10-15
+Started phase 125 (Plain), duration: 10s @ 18:52:14(-0300) 2021-10-15
+Report @ 18:52:21(-0300) 2021-10-15
+Elapsed time: 11 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 126 (Peak), duration: 1s @ 18:52:24(-0300) 2021-10-15
+Started phase 127 (Plain), duration: 10s @ 18:52:25(-0300) 2021-10-15
+Report @ 18:52:31(-0300) 2021-10-15
+Elapsed time: 11 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 128 (Peak), duration: 1s @ 18:52:35(-0300) 2021-10-15
+Started phase 129 (Plain), duration: 10s @ 18:52:36(-0300) 2021-10-15
+Report @ 18:52:41(-0300) 2021-10-15
+Elapsed time: 11 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 130 (Peak), duration: 1s @ 18:52:46(-0300) 2021-10-15
+Started phase 131 (Plain), duration: 10s @ 18:52:47(-0300) 2021-10-15
+Report @ 18:52:51(-0300) 2021-10-15
+Elapsed time: 12 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 132 (Peak), duration: 1s @ 18:52:57(-0300) 2021-10-15
+Started phase 133 (Plain), duration: 10s @ 18:52:58(-0300) 2021-10-15
+Report @ 18:53:01(-0300) 2021-10-15
+Elapsed time: 12 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.36
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 134 (Peak), duration: 1s @ 18:53:08(-0300) 2021-10-15
+Started phase 135 (Plain), duration: 10s @ 18:53:09(-0300) 2021-10-15
+Report @ 18:53:11(-0300) 2021-10-15
+Elapsed time: 12 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.56
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 136 (Peak), duration: 1s @ 18:53:19(-0300) 2021-10-15
+Started phase 137 (Plain), duration: 10s @ 18:53:20(-0300) 2021-10-15
+Report @ 18:53:21(-0300) 2021-10-15
+Elapsed time: 12 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.25
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 138 (Peak), duration: 1s @ 18:53:30(-0300) 2021-10-15
+Report @ 18:53:31(-0300) 2021-10-15
+Elapsed time: 12 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 139 (Plain), duration: 10s @ 18:53:31(-0300) 2021-10-15
+Report @ 18:53:41(-0300) 2021-10-15
+Elapsed time: 12 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 140 (Peak), duration: 1s @ 18:53:41(-0300) 2021-10-15
+Started phase 141 (Plain), duration: 10s @ 18:53:42(-0300) 2021-10-15
+Report @ 18:53:51(-0300) 2021-10-15
+Elapsed time: 13 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 142 (Peak), duration: 1s @ 18:53:52(-0300) 2021-10-15
+Started phase 143 (Plain), duration: 10s @ 18:53:53(-0300) 2021-10-15
+Report @ 18:54:01(-0300) 2021-10-15
+Elapsed time: 13 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 144 (Peak), duration: 1s @ 18:54:03(-0300) 2021-10-15
+Started phase 145 (Plain), duration: 10s @ 18:54:04(-0300) 2021-10-15
+Report @ 18:54:11(-0300) 2021-10-15
+Elapsed time: 13 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 146 (Peak), duration: 1s @ 18:54:14(-0300) 2021-10-15
+Started phase 147 (Plain), duration: 10s @ 18:54:15(-0300) 2021-10-15
+Report @ 18:54:21(-0300) 2021-10-15
+Elapsed time: 13 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 148 (Peak), duration: 1s @ 18:54:25(-0300) 2021-10-15
+Started phase 149 (Plain), duration: 10s @ 18:54:26(-0300) 2021-10-15
+Report @ 18:54:31(-0300) 2021-10-15
+Elapsed time: 13 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 150 (Peak), duration: 1s @ 18:54:36(-0300) 2021-10-15
+Started phase 151 (Plain), duration: 10s @ 18:54:37(-0300) 2021-10-15
+Report @ 18:54:41(-0300) 2021-10-15
+Elapsed time: 13 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.26
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 152 (Peak), duration: 1s @ 18:54:47(-0300) 2021-10-15
+Started phase 153 (Plain), duration: 10s @ 18:54:48(-0300) 2021-10-15
+Report @ 18:54:51(-0300) 2021-10-15
+Elapsed time: 14 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.36
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 154 (Peak), duration: 1s @ 18:54:58(-0300) 2021-10-15
+Started phase 155 (Plain), duration: 10s @ 18:54:59(-0300) 2021-10-15
+Report @ 18:55:01(-0300) 2021-10-15
+Elapsed time: 14 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.56
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 156 (Peak), duration: 1s @ 18:55:09(-0300) 2021-10-15
+Started phase 157 (Plain), duration: 10s @ 18:55:10(-0300) 2021-10-15
+Report @ 18:55:11(-0300) 2021-10-15
+Elapsed time: 14 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.28
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 158 (Peak), duration: 1s @ 18:55:20(-0300) 2021-10-15
+Report @ 18:55:21(-0300) 2021-10-15
+Elapsed time: 14 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 159 (Plain), duration: 10s @ 18:55:21(-0300) 2021-10-15
+Report @ 18:55:31(-0300) 2021-10-15
+Elapsed time: 14 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1152
+    max: 1152
+    median: 1152
+    p95: 1152
+    p99: 1152
+  Codes:
+    200: 1
+
+Started phase 160 (Peak), duration: 1s @ 18:55:31(-0300) 2021-10-15
+Started phase 161 (Plain), duration: 10s @ 18:55:32(-0300) 2021-10-15
+Report @ 18:55:41(-0300) 2021-10-15
+Elapsed time: 14 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 162 (Peak), duration: 1s @ 18:55:42(-0300) 2021-10-15
+Started phase 163 (Plain), duration: 10s @ 18:55:43(-0300) 2021-10-15
+Report @ 18:55:51(-0300) 2021-10-15
+Elapsed time: 15 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 164 (Peak), duration: 1s @ 18:55:53(-0300) 2021-10-15
+Started phase 165 (Plain), duration: 10s @ 18:55:54(-0300) 2021-10-15
+Report @ 18:56:01(-0300) 2021-10-15
+Elapsed time: 15 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 166 (Peak), duration: 1s @ 18:56:04(-0300) 2021-10-15
+Started phase 167 (Plain), duration: 10s @ 18:56:05(-0300) 2021-10-15
+Report @ 18:56:11(-0300) 2021-10-15
+Elapsed time: 15 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 168 (Peak), duration: 1s @ 18:56:15(-0300) 2021-10-15
+Started phase 169 (Plain), duration: 10s @ 18:56:16(-0300) 2021-10-15
+Report @ 18:56:21(-0300) 2021-10-15
+Elapsed time: 15 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 170 (Peak), duration: 1s @ 18:56:26(-0300) 2021-10-15
+Started phase 171 (Plain), duration: 10s @ 18:56:27(-0300) 2021-10-15
+Report @ 18:56:31(-0300) 2021-10-15
+Elapsed time: 15 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.27
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 172 (Peak), duration: 1s @ 18:56:37(-0300) 2021-10-15
+Started phase 173 (Plain), duration: 10s @ 18:56:38(-0300) 2021-10-15
+Report @ 18:56:41(-0300) 2021-10-15
+Elapsed time: 15 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.36
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 174 (Peak), duration: 1s @ 18:56:48(-0300) 2021-10-15
+Started phase 175 (Plain), duration: 10s @ 18:56:49(-0300) 2021-10-15
+Report @ 18:56:51(-0300) 2021-10-15
+Elapsed time: 16 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.57
+  Response time (msec):
+    min: 1156
+    max: 1156
+    median: 1156
+    p95: 1156
+    p99: 1156
+  Codes:
+    200: 1
+
+Started phase 176 (Peak), duration: 1s @ 18:56:59(-0300) 2021-10-15
+Started phase 177 (Plain), duration: 10s @ 18:57:00(-0300) 2021-10-15
+Report @ 18:57:01(-0300) 2021-10-15
+Elapsed time: 16 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.33
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 178 (Peak), duration: 1s @ 18:57:10(-0300) 2021-10-15
+Report @ 18:57:11(-0300) 2021-10-15
+Elapsed time: 16 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 179 (Plain), duration: 10s @ 18:57:11(-0300) 2021-10-15
+Report @ 18:57:21(-0300) 2021-10-15
+Elapsed time: 16 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 180 (Peak), duration: 1s @ 18:57:21(-0300) 2021-10-15
+Started phase 181 (Plain), duration: 10s @ 18:57:22(-0300) 2021-10-15
+Report @ 18:57:31(-0300) 2021-10-15
+Elapsed time: 16 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.11
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 182 (Peak), duration: 1s @ 18:57:32(-0300) 2021-10-15
+Started phase 183 (Plain), duration: 10s @ 18:57:33(-0300) 2021-10-15
+Report @ 18:57:41(-0300) 2021-10-15
+Elapsed time: 16 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.13
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 184 (Peak), duration: 1s @ 18:57:43(-0300) 2021-10-15
+Started phase 185 (Plain), duration: 10s @ 18:57:44(-0300) 2021-10-15
+Report @ 18:57:51(-0300) 2021-10-15
+Elapsed time: 17 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.15
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 186 (Peak), duration: 1s @ 18:57:54(-0300) 2021-10-15
+Started phase 187 (Plain), duration: 10s @ 18:57:55(-0300) 2021-10-15
+Report @ 18:58:01(-0300) 2021-10-15
+Elapsed time: 17 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.17
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 188 (Peak), duration: 1s @ 18:58:05(-0300) 2021-10-15
+Started phase 189 (Plain), duration: 10s @ 18:58:06(-0300) 2021-10-15
+Report @ 18:58:11(-0300) 2021-10-15
+Elapsed time: 17 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.21
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 190 (Peak), duration: 1s @ 18:58:16(-0300) 2021-10-15
+Started phase 191 (Plain), duration: 10s @ 18:58:17(-0300) 2021-10-15
+Report @ 18:58:21(-0300) 2021-10-15
+Elapsed time: 17 minutes, 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.27
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 192 (Peak), duration: 1s @ 18:58:27(-0300) 2021-10-15
+Started phase 193 (Plain), duration: 10s @ 18:58:28(-0300) 2021-10-15
+Report @ 18:58:31(-0300) 2021-10-15
+Elapsed time: 17 minutes, 40 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.37
+  Response time (msec):
+    min: 1155
+    max: 1155
+    median: 1155
+    p95: 1155
+    p99: 1155
+  Codes:
+    200: 1
+
+Started phase 194 (Peak), duration: 1s @ 18:58:38(-0300) 2021-10-15
+Started phase 195 (Plain), duration: 10s @ 18:58:39(-0300) 2021-10-15
+Report @ 18:58:41(-0300) 2021-10-15
+Elapsed time: 17 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.58
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Started phase 196 (Peak), duration: 1s @ 18:58:49(-0300) 2021-10-15
+Started phase 197 (Plain), duration: 10s @ 18:58:51(-0300) 2021-10-15
+Report @ 18:58:51(-0300) 2021-10-15
+Elapsed time: 18 minutes, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 1.37
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 198 (Peak), duration: 1s @ 18:59:01(-0300) 2021-10-15
+Report @ 18:59:01(-0300) 2021-10-15
+Elapsed time: 18 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: NaN
+  Response time (msec):
+    min: 1153
+    max: 1153
+    median: 1153
+    p95: 1153
+    p99: 1153
+  Codes:
+    200: 1
+
+Started phase 199 (Plain), duration: 10s @ 18:59:02(-0300) 2021-10-15
+Report @ 18:59:11(-0300) 2021-10-15
+Elapsed time: 18 minutes, 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1154
+    max: 1154
+    median: 1154
+    p95: 1154
+    p99: 1154
+  Codes:
+    200: 1
+
+Report @ 18:59:12(-0300) 2021-10-15
+Elapsed time: 18 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+All virtual users finished
+Summary report @ 18:59:12(-0300) 2021-10-15
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 0.09
+  Response time (msec):
+    min: 1152
+    max: 1157
+    median: 1154
+    p95: 1155
+    p99: 1156.5
+  Scenario counts:
+    Root (/): 100 (100%)
+  Codes:
+    200: 100
+
