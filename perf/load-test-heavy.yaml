@@ -17,9 +17,21 @@ config:
   # arrivalRate: request por segundo
 
   phases:
-    - name: inicio
-      duration: 60
-      arrivalRate: 9
+    - name: 15 request por segundo
+      duration: 15
+      arrivalRate: 15
+
+    - name: 20 request por segundo
+      duration: 15
+      arrivalRate: 20
+
+    - name: 25 request por segundo
+      duration: 15
+      arrivalRate: 25
+
+    - name: 30 request por segundo
+      duration: 30
+      arrivalRate: 30
 
     - name: end
       duration: 10
@@ -29,4 +41,4 @@ scenarios:
   - name: Heavy (/heavy)
     flow:
       - get:
-          url: '/heavy' #endponit al que le vas a pegar
+          url: '/heavy'

@@ -18,8 +18,20 @@ config:
 
   phases:
     - name: 10 request / segundo
-      duration: 60
+      duration: 20
       arrivalRate: 10
+
+    - name: 20 request / segundo
+      duration: 20
+      arrivalRate: 20
+
+    - name: 30 request / segundo
+      duration: 20
+      arrivalRate: 30
+
+    - name: 40 request / segundo
+      duration: 20
+      arrivalRate: 40
 
     - name: end
       duration: 10
@@ -29,4 +41,4 @@ scenarios:
   - name: Asincronico (/async)
     flow:
       - get:
-          url: '/async' # endpoint al que le vas a pegar
+          url: '/async'
