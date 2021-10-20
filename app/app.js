@@ -11,6 +11,10 @@ app.get('/ping', function (_, res) {
 })
 
 app.get('/sync', function (_, res) {
+    let a = 2
+    let b = 2
+    let c = a + b
+    res.send('Sincronico OK')
 })
 
 app.get('/async', function (_, res) {
