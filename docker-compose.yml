@@ -1,17 +1,7 @@
 version: '2'
 
 services:
-    node_1:
-        build: ./app
-        volumes:
-            - ./app/app.js:/opt/app/app.js
-
-    node_2:
-        build: ./app
-        volumes:
-            - ./app/app.js:/opt/app/app.js
-
-    node_3:
+    node:
         build: ./app
         volumes:
             - ./app/app.js:/opt/app/app.js
@@ -24,9 +14,7 @@ services:
             - ./nginx_reverse_proxy.conf:/etc/nginx/conf.d/default.conf:ro
             - ./store/static/files:/static:ro
         links:
-            - node_1
-            - node_2
-            - node_3
+            - node
 
     graphite:
         image: graphiteapp/graphite-statsd:1.1.8-1

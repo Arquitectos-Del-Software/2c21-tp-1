@@ -17,36 +17,12 @@ config:
   # arrivalRate: request por segundo
 
   phases:
-    - name: 10 request / segundo
-      duration: 20
-      arrivalRate: 10
-
-    - name: 30 request / segundo
-      duration: 20
-      arrivalRate: 30
-
-    - name: 60 request / segundo
-      duration: 20
-      arrivalRate: 60
-
-    - name: 90 request / segundo
-      duration: 20
-      arrivalRate: 90
-
-    - name: 120 request / segundo
-      duration: 20
-      arrivalRate: 120
-
-    - name: 150 request / segundo
-      duration: 20
-      arrivalRate: 150
-
-    - name: end
+    - name: 2 request / segundo
       duration: 10
-      arrivalRate: 0
+      arrivalRate: 2
 
 scenarios:
-  - name: Asincronico (/async)
+  - name: Read File Sync
     flow:
       - get:
-          url: '/async'
+          url: '/request_sync'

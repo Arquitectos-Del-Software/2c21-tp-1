@@ -1,6 +1,6 @@
 FROM node:14
 RUN mkdir /opt/app
 WORKDIR /opt/app
-COPY app.js package.json package-lock.json ./
+COPY app.js package.json package-lock.json archivo_ejemplo.txt ./
 RUN npm install
 ENTRYPOINT [ "node", "app.js" ]

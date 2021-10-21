@@ -17,28 +17,12 @@ config:
   # arrivalRate: request por segundo
 
   phases:
-    - name: 15 request por segundo
-      duration: 15
-      arrivalRate: 15
-
-    - name: 20 request por segundo
-      duration: 15
-      arrivalRate: 20
-
-    - name: 25 request por segundo
-      duration: 15
-      arrivalRate: 25
-
-    - name: 30 request por segundo
-      duration: 30
-      arrivalRate: 30
-
-    - name: end
+    - name: 2 request / segundo
       duration: 10
-      arrivalRate: 0
+      arrivalRate: 2
 
 scenarios:
-  - name: Heavy (/heavy)
+  - name: Read File Async
     flow:
       - get:
-          url: '/heavy'
+          url: '/request_async'
