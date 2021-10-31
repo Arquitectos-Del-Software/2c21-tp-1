@@ -26,8 +26,14 @@ config:
 
   phases:
     - name: Load
-      duration: 600
-      arrivalRate: 5
+      duration: 120
+      arrivalRate: 15
+    - name: End
+      duration: 60
+      arrivalRate: 0
+    - name: Load
+      duration: 120
+      arrivalRate: 15
     - name: End
       duration: 10
       arrivalRate: 0

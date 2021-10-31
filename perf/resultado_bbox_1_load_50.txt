@@ -1,0 +1,957 @@
+
+> perf@1.0.0 artillery /home/hugo/Desktop/Arq de Soft/Tp1/2c21-tp-1/perf
+> artillery "run" "load-bbox.yaml" "-e" "black_box_1"
+
+Started phase 0 (Load), duration: 600s @ 18:28:14(-0300) 2021-10-16
+Report @ 18:28:24(-0300) 2021-10-16
+Elapsed time: 10 seconds
+  Scenarios launched:  499
+  Scenarios completed: 154
+  Requests completed:  154
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: 900
+    max: 6912
+    median: 3901
+    p95: 6303
+    p99: 6903
+  Codes:
+    200: 154
+
+Report @ 18:28:34(-0300) 2021-10-16
+Elapsed time: 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 86
+  Requests completed:  86
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: 6902
+    max: 9912
+    median: 8702
+    p95: 9903.2
+    p99: 9909.1
+  Codes:
+    200: 86
+  Errors:
+    ETIMEDOUT: 259
+
+Report @ 18:28:44(-0300) 2021-10-16
+Elapsed time: 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:28:54(-0300) 2021-10-16
+Elapsed time: 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:04(-0300) 2021-10-16
+Elapsed time: 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:14(-0300) 2021-10-16
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:24(-0300) 2021-10-16
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:34(-0300) 2021-10-16
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:44(-0300) 2021-10-16
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:29:54(-0300) 2021-10-16
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:04(-0300) 2021-10-16
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:14(-0300) 2021-10-16
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:24(-0300) 2021-10-16
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:34(-0300) 2021-10-16
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:44(-0300) 2021-10-16
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:30:54(-0300) 2021-10-16
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:04(-0300) 2021-10-16
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:14(-0300) 2021-10-16
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:24(-0300) 2021-10-16
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:34(-0300) 2021-10-16
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:44(-0300) 2021-10-16
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:31:54(-0300) 2021-10-16
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:04(-0300) 2021-10-16
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:14(-0300) 2021-10-16
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:24(-0300) 2021-10-16
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:34(-0300) 2021-10-16
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:44(-0300) 2021-10-16
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:32:54(-0300) 2021-10-16
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:04(-0300) 2021-10-16
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:14(-0300) 2021-10-16
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:24(-0300) 2021-10-16
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:34(-0300) 2021-10-16
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:44(-0300) 2021-10-16
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:33:54(-0300) 2021-10-16
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:04(-0300) 2021-10-16
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:14(-0300) 2021-10-16
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:24(-0300) 2021-10-16
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:34(-0300) 2021-10-16
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:44(-0300) 2021-10-16
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:34:54(-0300) 2021-10-16
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:04(-0300) 2021-10-16
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:14(-0300) 2021-10-16
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:24(-0300) 2021-10-16
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:34(-0300) 2021-10-16
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:44(-0300) 2021-10-16
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:35:54(-0300) 2021-10-16
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:04(-0300) 2021-10-16
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:14(-0300) 2021-10-16
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:24(-0300) 2021-10-16
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:34(-0300) 2021-10-16
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:44(-0300) 2021-10-16
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:36:54(-0300) 2021-10-16
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:04(-0300) 2021-10-16
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:14(-0300) 2021-10-16
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:24(-0300) 2021-10-16
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:34(-0300) 2021-10-16
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:44(-0300) 2021-10-16
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:37:54(-0300) 2021-10-16
+Elapsed time: 9 minutes, 40 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:38:04(-0300) 2021-10-16
+Elapsed time: 9 minutes, 50 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:38:14(-0300) 2021-10-16
+Elapsed time: 10 minutes, 0 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Started phase 1 (End), duration: 10s @ 18:38:14(-0300) 2021-10-16
+Report @ 18:38:24(-0300) 2021-10-16
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 18:38:24(-0300) 2021-10-16
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 1
+
+All virtual users finished
+Summary report @ 18:38:24(-0300) 2021-10-16
+  Scenarios launched:  30000
+  Scenarios completed: 240
+  Requests completed:  240
+  Mean response/sec: 49.14
+  Response time (msec):
+    min: 900
+    max: 9912
+    median: 5406.5
+    p95: 9903
+    p99: 9904
+  Scenario counts:
+    Root (/): 30000 (100%)
+  Codes:
+    200: 240
+  Errors:
+    ETIMEDOUT: 29760
+
