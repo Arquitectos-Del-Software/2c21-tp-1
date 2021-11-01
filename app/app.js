@@ -24,6 +24,26 @@ app.get('/sync', function (_, res) {
     res.send('Sincronico OK')
 })
 
+app.get('/request_bbox_sync', (_, res) => {
+    axios.get('http://bbox:9090')
+        .then(response => {
+            res.send(response?.data)
+        })
+        .catch(err => {
+            res.send(err)
+        })
+})
+
+app.get('/request_bbox_async', (_, res) => {
+    axios.get('http://bbox:9091')
+        .then(response => {
+            res.send(response?.data)
+        })
+        .catch(err => {
+            res.send(err)
+        })
+})
+
 app.get('/request_async', (_, res) => {
     axios.get('https://dog.ceo/api/breeds/image/random')
         .then(response => {
