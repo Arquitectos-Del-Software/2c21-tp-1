@@ -25,7 +25,7 @@ app.get('/sync', function (_, res) {
 })
 
 app.get('/request_bbox_sync', (_, res) => {
-    axios.get('http://bbox:9090')
+    axios.get('http://2c21-tp-1_nginx_1/sync')
         .then(response => {
             res.send(response?.data)
         })
@@ -35,7 +35,7 @@ app.get('/request_bbox_sync', (_, res) => {
 })
 
 app.get('/request_bbox_async', (_, res) => {
-    axios.get('http://bbox:9091')
+    axios.get('http://2c21-tp-1_nginx_1/async')
         .then(response => {
             res.send(response?.data)
         })
