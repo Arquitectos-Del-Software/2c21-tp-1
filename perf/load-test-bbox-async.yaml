@@ -1,0 +1,40 @@
+config:
+  environments:
+    node:
+      target: 'http://localhost:5555'
+      plugins:
+        statsd:
+          host: localhost
+          port: 8125
+          prefix: "artillery-node"
+
+  pool: 50 # All HTTP requests from all virtual users will be sent over the same connections
+
+  # nota: el primer pico de uso de CPU suele ser siempre exagerado, no tenerlo muy en cuenta
+  # al final Grafana te replica el ultimo valor, siempre mandar un escenario con arrivalRate 0
+  # para visualizar el corte
+  # duration: duracion en segundos
+  # arrivalRate: request por segundo
+
+  phases:
+    - name: 10 request / segundo
+      duration: 10
+      arrivalRate: 10
+
+    - name: 15 request / segundo
+      duration: 15
+      arrivalRate: 15
+
+    - name: 20 request / segundo
+      duration: 15
+      arrivalRate: 20
+    
+    - name: Fin
+      duration: 10
+      arrivalRate: 0
+
+scenarios:
+  - name: BBOX ASync
+    flow:
+      - get:
+          url: '/request_bbox_async'
